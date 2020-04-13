@@ -1,0 +1,175 @@
+        body{
+            background-color:black;
+            margin: 3%;
+        }
+        .section1{
+            background-color:aquamarine;
+            padding: 10px;
+            text-align: center;
+        }
+        .tb10 {
+            background-image:url(images/1.jpg);
+            background-repeat:repeat-x;
+            border:1px solid #d1c7ac;
+            color:#333333;
+            padding:3px;
+            margin-right:4px;
+            margin-bottom:8px;
+            font-family:tahoma, arial, sans-serif;
+            width: 70px;   
+            }
+            
+        .tb11{
+            background-image:url(images/1.jpg);
+            background-repeat:repeat-x;
+            border:1px solid #d1c7ac;
+            color:#333333;
+            padding:3px;
+            margin-right:4px;
+            margin-bottom:8px;
+            font-family:tahoma, arial, sans-serif;
+            width:50%;
+            }
+        .tb12 {
+            background-image:url(images/1.jpg);
+            background-repeat:repeat-x;
+            border:1px solid #d1c7ac;
+            color:#333333;
+            padding:3px;
+            margin-right:4px;
+            margin-bottom:8px;
+            font-family:tahoma, arial, sans-serif;
+            width: 150px;   
+            }
+        .head1{
+            text-align: center;
+            padding: 10px;
+            background-color:dodgerblue;
+        }
+        .result{
+            margin-left: 22%;
+            margin-right: 22%;
+            padding: 4px;
+            background-color: chartreuse;
+            color: blue;
+            text-align: center;
+            overflow:auto;
+        }
+        .result1{
+            margin-left: 25%;
+            margin-right: 25%;
+            padding: 4px;
+            background-color:darkgray;
+            color: blue;
+            text-align: center;
+            overflow:auto;
+        }
+        .resulttxtso{
+            text-align: center;
+            font-family: fantasy;
+            font-size: 20px;
+        }
+        .op{
+            text-align: left;
+            padding: 2px;
+            background-color: blueviolet;
+            color: chartreuse;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        .sec{
+            background-color: beige;
+        }
+        .imgres{
+            width: 50%;
+            height: 30%;
+        }
+        .nav ul {
+          list-style: none;
+          background-color: #444;
+          text-align: center;
+          padding: 0;
+          margin: 0;
+        }
+        .nav li {
+          font-family: 'Oswald', sans-serif;
+          font-size: 1.2em;
+          line-height: 40px;
+          height: 40px;
+          border-bottom: 1px solid #888;
+        }
+
+        .nav a {
+          text-decoration: none;
+          color: #fff;
+          display: block;
+          transition: .3s background-color;
+        }
+
+        .nav a:hover {
+          background-color:blueviolet;
+        }
+
+        .nav a.active {
+          background-color:aqua;
+          color: #444;
+          cursor: default;
+        }
+
+        @media screen and (min-width: 600px) {
+          .nav li {
+            width: 120px;
+            border-bottom: none;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1.4em;
+          }
+
+
+          .nav li {
+            display: inline-block;
+            margin-right: -4px;
+          }
+
+            
+        .body123{
+            min-height:20px;
+            padding:19px;
+            margin-bottom:20px;
+            background-color:azure;
+            border:1px solid #e3e3e3;
+            border-radius:4px;
+            -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+            box-shadow:inset 0 1px 1px rgba(0,0,0,.05)}
+            
+            
+        .bodymin{min-height:20px;
+            padding:19px;
+            margin-bottom:20px;
+            background-color:azure;
+            border:1px solid #e3e3e3;
+            border-radius:4px;
+            -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+            box-shadow:inset 0 1px 1px rgba(0,0,0,.05)}
+            
+            .imglogo{
+                width: 100%;
+                border: 2px solid #000000;
+            }
+            
+            .login{
+                float: right;
+                background-color:chartreuse;
+                padding: 5px;
+                margin: 5px;
+                border:1px solid #e3e3e3;
+                border-radius:4px;
+                -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+                box-shadow:inset 0 1px 1px rgba(0,0,0,.05)
+            }
+            
+            
+            .btnlog{
+                color:#fff;
+                background-color:#5bc0de;
+                border-color:#46b8da}
